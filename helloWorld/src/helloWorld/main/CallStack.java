@@ -6,13 +6,13 @@ public class CallStack {
 	
 	// Call Stack - The order in which new methods run and when new methods terminate
 	
-	public static void main(String[] args) {
-		
-		System.out.println("Hello im the main!");
-		firstLayer();
-		System.out.println("Main is finished");
-		
-	}
+//	public static void main(String[] args) {
+//		
+//		System.out.println("Hello im the main!");
+//		firstLayer();
+//		System.out.println("Main is finished");
+//		
+//	}
 	
 	// This method will be called by main 
 	public static void firstLayer() {
