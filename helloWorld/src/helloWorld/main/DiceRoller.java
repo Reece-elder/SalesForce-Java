@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class DiceRoller {
 	
-	public static void main(String[] args) {
-		
-		System.out.println(diceManager());
-		
-	}
+//	public static void main(String[] args) {
+//		
+//		System.out.println(diceManager());
+//		
+//	}
 	
 	public static int diceManager() {
 		
