@@ -14,7 +14,18 @@ public class Runner {
 //		PizzaLoop.sliceLoop();
 //		PizzaLoop.pizzaLoop();
 //		SwitchCase.switchCaseMethod("Chair");
-		CommandWords.CommandWordDemo();
+//		CommandWords.CommandWordDemo();
+//		Recap.whileLoop();
+//		Recap.doWhileLoop();
+//		Recap.forLoop();
+//		ExerciseAnswers.flowchartA();
+//		ExerciseAnswers.flowchartB();
+//		ExerciseAnswers.calcChange(78.32f, 45.10f);
+//		
+//		ExerciseAnswers.numbersBasic(78);
+//		ExerciseAnswers.numbersTwo(53);
+//		Exercises.flowchartB();
+		Exercises.numbersBasic(78);
 	}
 
 }
