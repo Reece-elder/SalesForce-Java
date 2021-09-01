@@ -70,5 +70,38 @@ public class BasicUsage {
 		
 		
 	}
+	
+	public static void arrayExercise() {
+		
+		boolean[] likesPineappleOnPizza = {true, true, false, true, true};
+		System.out.println(likesPineappleOnPizza[3]);
+		likesPineappleOnPizza[3] = false;
+		System.out.println(likesPineappleOnPizza[3]);
+		
+	}
+	
+	public static void arrayManipulation() {
+		
+		// Creating an empty array of length 4
+		String[] pizzaArray = new String[4];
+		
+		System.out.println(pizzaArray[2]);
+		pizzaArray[2] = "Pepperoni";
+		System.out.println(pizzaArray[2]);
+		pizzaArray[2] = "Hawaiaan";
+		System.out.println(pizzaArray[2]);
+		
+		// Create an array of random numbers of length 5
+		float[] floatArray = {52.45f, 13.63f, 78.96f, 123.45f, 0.78f};
+		System.out.println(floatArray[1]);
+		floatArray[1] = 5678.85f;
+		System.out.println(floatArray[1]);
+		
+	}
+	
+	// Exercise - Either doing it manually OR using a for loop, 
+	// modify the fav numbers you've got to their squared values
+	// favNumber[1] = 9 
+	// favNumber[1] = 81
 
 }

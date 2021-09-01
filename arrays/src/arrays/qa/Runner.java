@@ -4,7 +4,9 @@ public class Runner {
 	
 	public static void main(String[] args) {
 		
-		BasicUsage.arrayBasic();
+//		BasicUsage.arrayBasic();
+		BasicUsage.arrayExercise();
+		BasicUsage.arrayManipulation();
 		
 	}
 
