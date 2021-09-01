@@ -103,5 +103,88 @@ public class BasicUsage {
 	// modify the fav numbers you've got to their squared values
 	// favNumber[1] = 9 
 	// favNumber[1] = 81
+	
+	public static void squaredNumber() {
+		
+		int[] intArray = {1,2,3,4,5,6,7,8};
+		
+		for(int i = 0; i < 8; i++) {
+			int number = intArray[i];
+			int squaredNumber = number * number;
+			System.out.println(number);
+			System.out.println(squaredNumber);
+			intArray[i] = squaredNumber;
+		}
+		
+		System.out.println("===============================================");
+		
+		for(int i = 0; i < 8; i++) {
+			int number = intArray[i];
+			System.out.println(number);
+		}
+		
+	}
+	
+	public static void enhancedForLoop() {
+		
+		int[] intArray = {1,2,3,4,5,6,7,8};
+		
+		System.out.println("=======================================");
+		
+		System.out.println(intArray.length);
+		
+		System.out.println("=======================================");
+		
+		for(int i = 0; i < intArray.length; i++) {
+			int number = intArray[i];
+			System.out.println(number);
+		}
+		
+		// Enhanced For loop / for each
+		// Enhanced for loops are designed for use with arrays to make implementation easier
+		// For EACH element in an array do this thing
+		
+		String[] nameArray = {"Greg", "Katie", "Alice", "Oscar"};
+		
+		// Create a new temp string for each object in the array
+		// : for the name of the array
+		for (String name : nameArray) {
+			System.out.println(name);
+		}
+		
+		// Exercise
+		// Modify your squared number for loop to an enhanced for each loop
+		
+		// New empty array
+		int[] squaredArray = new int[intArray.length];
+		
+		int[] reversedSquaredArray = new int[intArray.length];
+		
+		// 
+		int indexNumber = intArray.length - 1;
+		
+		for (int number : intArray) {
+			System.out.println(number);
+			int squaredNumber = number * number;
+			System.out.println(squaredNumber);
+//			squaredArray[indexNumber] = squaredNumber;
+//			indexNumber++;
+			reversedSquaredArray[indexNumber] = squaredNumber;
+			indexNumber--;
+		}
+		
+		System.out.println("********************************************");
+		
+//		for (int squaredNum : squaredArray) {
+//			System.out.println(squaredNum);
+//		}
+		
+		for (int reverseNum : reversedSquaredArray ) {
+			System.out.println(reverseNum);
+		}
+		
+		
+		
+	}
 
 }
