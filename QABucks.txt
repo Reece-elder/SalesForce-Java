@@ -1,0 +1,33 @@
+Array Lists Exercise:
+You're working as a software dev for a well known coffee QABucks
+
+You've got a list of orders and you need to have the following methods implemented to manage the orders:
+
+2x array lists
+- OrdersArray
+- DoneOrdersArray
+
+All methods you should be able to pass in data
+
+  - Add a new order to the orders array
+  - Return the name of the order
+  - Modify the order (passing in a string)
+  - Remove the order from the orders array
+  - Add the order to the doneOrders array
+  - Prints out the length of the orders and doneOrders array
+  - clears either or both of the arrays
+
+Orders to use: 
+Small Espresso w/ Chocolate
+Large Cold Brew w/ double shot
+Medium Cappucino w/ Oat Milk
+Medium Flat White
+Large Choc Cookie Frappe w/ sugar free syrup
+Small Caramel Iced Latte w/ honeycomb dust
+Small Americano
+Large Cafe Au Lait w/ extra milk
+Medium Strawberry Iced Tea
+
+Stretch goal - Using Multi Dimensional (Or objects if you're comfortable) split the orders into Size, drink and extras 
+
+{{"small", "espresso", "chocolate"}, {}, {}}

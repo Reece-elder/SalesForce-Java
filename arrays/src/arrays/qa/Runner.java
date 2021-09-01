@@ -10,7 +10,8 @@ public class Runner {
 //		BasicUsage.squaredNumber();
 //		BasicUsage.enhancedForLoop();
 //		MultiDimensionArray.multiDimensionDemo();
-		MultiDimensionArray.multiDimensionLoop();
+//		MultiDimensionArray.multiDimensionLoop();
+		ArrayLists.arrayListsDemo();
 		
 	}
 
