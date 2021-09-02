@@ -14,6 +14,10 @@ public class CakeTin {
 	public int numberOfCandles;
 	public boolean sprinkles;
 	
+	// Static variable shared across all objects
+	public static int width = 12;
+	public static int cakesMade = 0;
+	
 	// Create a method that will be accessible to all objects of this class
 	// static methods are used when the method relates to the CLASS 
 	// This method relates to the OBJECT and so isn't static
@@ -60,5 +64,31 @@ public class CakeTin {
 		
 	}
 	
+	// Source
+	// Right Click > Source > Generate Constructor Using Fields OR SHIFT ALT S 
+	
+	/**
+	 * @param colour
+	 * @param flavour
+	 * @param layers
+	 * @param numberOfCandles
+	 * @param sprinkles
+	 */
+	public CakeTin(String colour, String flavour, int layers, int numberOfCandles, boolean sprinkles) {
+		super();
+		this.colour = colour;
+		this.flavour = flavour;
+		this.layers = layers;
+		this.numberOfCandles = numberOfCandles;
+		this.sprinkles = sprinkles;
+		
+		cakesMade++;
+	}
+	
+	
+	
+	// Class Members
+	// Class members are the variables or methods WITHIN a class - Something you can access within the class
+	// When Creating an object of a class, by default all objects have a COPY of the class members
 
 }
