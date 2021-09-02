@@ -90,5 +90,14 @@ public class CakeTin {
 	// Class Members
 	// Class members are the variables or methods WITHIN a class - Something you can access within the class
 	// When Creating an object of a class, by default all objects have a COPY of the class members
+	
+	// Static Method
+	// A method that is shared across all instances AND classes, and is the same across all
+	
+	public static void cookCake() {
+		
+		System.out.println("Cake cooked for 20 mins");
+		
+	}
 
 }

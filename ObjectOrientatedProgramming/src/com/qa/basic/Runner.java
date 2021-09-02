@@ -41,6 +41,7 @@ public class Runner {
 		System.out.println(cake2.width);
 		
 		CakeTin.width = 15;
+		System.out.println(cake2.width);
 		cake1.width = 17;
 		System.out.println(cake2.width);
 		System.out.println(CakeTin.cakesMade);
@@ -53,6 +54,12 @@ public class Runner {
 		// Use the generate constructor to create a new constructor with your fields
 		// Add a static variable AND a static method to your class
 		// See how changing the value of the static variable (From the runner) changes the value across all objects
+		
+//		CakeTin.cutInSlices();
+		cake1.cutInSlices();
+		
+		CakeTin.cookCake();
+		cake1.cookCake();
 		
 		
 	}
