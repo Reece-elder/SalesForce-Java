@@ -55,9 +55,12 @@ public class Fish {
 		return type;
 	}
 
+	// Void doesnt return anything
+	// String / int returns a String / int
 
-	public void setType(String type) {
+	public String setType(String type) {
 		this.type = type;
+		return type;
 	}
 
 

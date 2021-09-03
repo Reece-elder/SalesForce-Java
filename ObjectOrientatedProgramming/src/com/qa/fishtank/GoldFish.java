@@ -16,7 +16,7 @@ public class GoldFish {
 		System.out.println("*bubble bubble bubble*");
 	}
 
-	// Constructor
+	// Constructor - Create an object of a class
 	
 	public GoldFish(String colour, String name, int fins, boolean breathesOxygen) {
 		super();
@@ -26,12 +26,14 @@ public class GoldFish {
 		this.breathesOxygen = breathesOxygen;
 	}
 	
-	// Getters and Setters
+	// Getters and Setters - Allow you to retrieve and set the variables
 
+	// Get = Read
 	public String getColour() {
 		return colour;
 	}
 
+	// Set = Update
 	public void setColour(String colour) {
 		this.colour = colour;
 	}

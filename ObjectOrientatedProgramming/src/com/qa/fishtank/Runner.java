@@ -12,20 +12,34 @@ public class Runner {
 		// First thing to do within my runner is create a new FishTank object
 		FishTank fishTank = new FishTank();
 		
-		// Fish objects 
+		// Fish objects
+		// Make a new fish called fish1 
 		GoldFish fish1 = new GoldFish("Hazy Orange", "Percy", 3, false);
 		GoldFish fish2 = new GoldFish("Dull Gold", "Kelly", 4, false);
 		GoldFish fish3 = new GoldFish("Maroon", "Maroon 5", 4, false);
 		
+		String newString = "hey";
+		
+		System.out.println(fish1.getColour());
+		fish1.setColour("Brown");
+		System.out.println(fish1.getColour());
+		
 		// Add fish1 to the tank
-		fishTank.addToTank(fish1);
-		fishTank.addToTank(fish2);
-		fishTank.addToTank(fish3);
+//		fishTank.addToTank(fish1);
+//		fishTank.addToTank(fish2);
+//		fishTank.addToTank(fish3);
 		
 		// Accessing the fishtank array within the fish tank object
-		System.out.println(fishTank.fishTank);
+//		System.out.println(fishTank.fishTank);
+//		
+//		fishTank.listNames();
 		
-		fishTank.listNames();
+		// Change the name of fish 1 to "Greg"
+		System.out.println(fish1.getName());
+		fish1.setName("greg");
+		System.out.println(fish1.getName());
+		fish1.getColour(); 
+		System.out.println(fish1.getColour());
 		
 		
 		// ==========================================================

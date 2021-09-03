@@ -5,6 +5,9 @@ import java.util.ArrayList;
 // Role of this class is to create an arraylist for the objects
 // Include all of the methods for managing and viewing our objects
 
+// All variables SHOULD be private unless there is a specific reason they shouldnt (Not dealing with objects) 
+// All methods   SHOULD be public unless there is a specific reason they shouldnt (Returning something confidential)
+
 public class FishTank {
 	
 	// Make an array list of the object GoldFish
