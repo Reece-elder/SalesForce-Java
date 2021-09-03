@@ -11,6 +11,8 @@ public interface Fish {
 	void noise();
 	
 	void swim();
+	
+	// NOT BEST PRACTICE Because multiple methods within one interface
 
 
 }
